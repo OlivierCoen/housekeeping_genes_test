@@ -1,0 +1,84 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.
+
+```{r}
+library("ExpressionAtlas")
+```
+
+```{r}
+properties <- c('salt')
+species <- 'arabidopsis'
+```
+
+```{r}
+atlasRes <- searchAtlasExperiments( properties = properties, species = species )
+atlasData <- getAtlasData( atlasRes$Accession )
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+```{r}
+atlasData
+```
+
+```{r}
+test <- atlasData[c(1, 2)]
+```
+
+```{r}
+# Get the current working directory
+cwd <- getwd()
+
+# Define the folder name (relative to the current working directory)
+folder_name <- "output"
+
+# Set the outdir by combining the cwd and the folder name
+outdir <- file.path(cwd, folder_name)
+
+# Create the folder if it doesn't exist
+if (!dir.exists(outdir)) {
+  dir.create(outdir, recursive = TRUE)
+}
+```
+
+```{r}
+cwd
+```
+
+```{r echo=FALSE, fig.height=100, message=TRUE}
+
+for (experiment_id in names(test)) {
+  
+  eset <- atlasData[[ experiment_id ]]
+ 
+  for (data_type in names(eset)) {
+    
+    data <- eset[[ data_type ]]
+    df <- assays(data)$counts
+    
+    outfilename <- paste0(experiment_id, '_', data_type, '.csv')
+    outfile <- file.path(outdir, outfilename)
+    write.table(df, outfile, sep=',')
+  }
+  
+}
+```
+
+```{r}
+# Concatenate all dataframes from the list column-wise
+result <- do.call(cbind, df_list)
+```
+
+```{r}
+result
+```
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
