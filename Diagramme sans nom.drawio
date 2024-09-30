@@ -16,8 +16,8 @@
         <mxCell id="4rcjOx3j172kwRaQ4hnd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-2" target="4rcjOx3j172kwRaQ4hnd-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4rcjOx3j172kwRaQ4hnd-2" value="If Expression Atlas IDs provided: &lt;br&gt;fetching count data from Expression Atlas" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="510" y="280" width="280" height="130" as="geometry" />
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-2" value="If Expression Atlas IDs provided: &lt;br&gt;fetching count data from Expression Atlas &lt;br&gt;(includes GEO &amp;amp; Affymetrix curated experiments)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4rcjOx3j172kwRaQ4hnd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-4" target="4rcjOx3j172kwRaQ4hnd-7">
           <mxGeometry relative="1" as="geometry" />
