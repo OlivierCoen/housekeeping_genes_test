@@ -48,7 +48,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4rcjOx3j172kwRaQ4hnd-10" value="Provided by user:&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;count dataframe(s) (predefined format)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;optional:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;species name&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;experimental condition keyword(s)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="247" y="50" width="366" height="120" as="geometry" />
+          <mxGeometry x="247" y="40" width="366" height="150" as="geometry" />
         </mxCell>
         <mxCell id="4rcjOx3j172kwRaQ4hnd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-10" target="4rcjOx3j172kwRaQ4hnd-2">
           <mxGeometry relative="1" as="geometry" />
