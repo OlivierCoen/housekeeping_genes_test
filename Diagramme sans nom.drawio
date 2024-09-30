@@ -1,11 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="T1eZqVlg703bQRGo6IRa">
-    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4rcjOx3j172kwRaQ4hnd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-21" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="9" y="900" width="810" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-19" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="17" y="530" width="810" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-15" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="810" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-2" target="4rcjOx3j172kwRaQ4hnd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-2" value="If Expression Atlas IDs provided: &lt;br&gt;fetching count data from Expression Atlas" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-4" target="4rcjOx3j172kwRaQ4hnd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-4" value="Mapping all gene ids to ncbi gene ids" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-7" target="4rcjOx3j172kwRaQ4hnd-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="1080" />
+              <mxPoint x="187" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-7" target="4rcjOx3j172kwRaQ4hnd-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="1080" />
+              <mxPoint x="673" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-7" value="Concatenating dataframes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="780" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-10" target="4rcjOx3j172kwRaQ4hnd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-10" value="Provided by user:&lt;div&gt;&lt;ul&gt;&lt;li&gt;count dataframe(s) (predefined format)&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;EBI Expression Atlas IDs&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="247" y="50" width="366" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-10" target="4rcjOx3j172kwRaQ4hnd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-16" value="Getting input count data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-20" value="Merging data in a coherent way" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="660" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-22" value="Computing coefficient of variation for each gene (tool chosen by user)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="950" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="187" y="1280" />
+              <mxPoint x="431" y="1280" />
+              <mxPoint x="431" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-23" value="edgeR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="127" y="1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4rcjOx3j172kwRaQ4hnd-24" target="4rcjOx3j172kwRaQ4hnd-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="1280" />
+              <mxPoint x="430" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-24" value="Deseq2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="613" y="1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4rcjOx3j172kwRaQ4hnd-29" value="Sorted list of genes showing lowest variation across samples" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1330" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
